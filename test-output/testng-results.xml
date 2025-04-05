@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-05T15:08:24 IST" name="Suite" finished-at="2025-04-05T15:08:34 IST" duration-ms="10292">
+    <groups>
+    </groups>
+    <test started-at="2025-04-05T15:08:24 IST" name="Test" finished-at="2025-04-05T15:08:34 IST" duration-ms="10292">
+      <class name="tests.TC007_WelcomeUserDisplay">
+        <test-method is-config="true" signature="launchingBrowserAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:tests.TC007_WelcomeUserDisplay@7c1e2a9e]" started-at="2025-04-05T15:08:24 IST" name="launchingBrowserAndLoadingURL" finished-at="2025-04-05T15:08:28 IST" duration-ms="4391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserAndLoadingURL -->
+        <test-method signature="testWelcomeUserDisplayed()[pri:0, instance:tests.TC007_WelcomeUserDisplay@7c1e2a9e]" started-at="2025-04-05T15:08:28 IST" name="testWelcomeUserDisplayed" finished-at="2025-04-05T15:08:34 IST" duration-ms="5576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWelcomeUserDisplayed -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC007_WelcomeUserDisplay@7c1e2a9e]" started-at="2025-04-05T15:08:34 IST" name="closeBrowser" finished-at="2025-04-05T15:08:34 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC007_WelcomeUserDisplay -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
